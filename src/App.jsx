@@ -10,14 +10,14 @@ import Header from './components/Header';
 export default function App() {
   return (
     <BrowserRouter> 
-      <Header/>
+      <Header />
     <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/About" element={<About/>} />
-      <Route path="/sign-in" element={<SignIn />} />
-      <Route path="/sign-up" element={<SignUp />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/projects" element={<Projects />} />
+      <Route path='/' element={<Home/>} />
+      <Route path='/About' element={<About/>} />
+      <Route path='/sign-in' element={<SignIn />} />
+      <Route path='/sign-up' element={<SignUp />} />
+      <Route path='/dashboard' element={<Dashboard />} />
+      <Route path='/projects' element={<Projects />} />
     </Routes>
 
     </BrowserRouter>
